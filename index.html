@@ -8,23 +8,49 @@
 </head>
 <body>
     <header>
-        <img >
+        <!-- <img src="./Imagenes/Logo.svg" alt="Logo-donuts" />
+        <nav class="navbar">
+            <a href="#" target="_blank">Inicio</a>
+            <a href="#" target="_blank">Sabores</a>
+            <a href="#" target="_blank">Elaboración</a>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./Imagenes/Logo.svg" alt="Donuts" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link" href="#">Sabores</a>
+                  <a class="nav-link" href="#">Elaboración</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
-    <nav class="navbar">
-        <a href="#" target="_blank">Inicio</a>
-        <a href="#" target="_blank">Sabores</a>
-        <a href="#" target="_blank">Elaboración</a> 
-    </nav>
+    
     <main>
-        <h2>¡Dinos cuál es tu favorita!</h2>
-        <p class="infof"> Tu opinión es muy importante para nosotros, por eso mismo, ¡Nos encantará saber cuál de todos nuestros sabores de donas es tu favorito!</p>
-        <p class="infof"> Deja tu voto y recibirás un cupón de descuento para tu siguiente compra. </p>
+        <div class="card text-bg-dark">
+            <img src="./Imagenes/Imagen-Donas.svg" class="banner" alt="banner-donuts">
+            <div class="card-img-overlay">
+              <h2 class="card-title">¡Dinos cuál es tu favorita!</h2>
+              <p class="info-promo"> Tu opinión es muy importante para nosotros, por eso mismo, ¡Nos encantará saber cuál de todos nuestros sabores de donas es tu favorito!</p>
+              <p class="info-promo"> Deja tu voto y recibirás un cupón de descuento para tu siguiente compra. </p>
+            </div>
+          </div>
+          
+
     </main>
     <section class="sabores">
         <h3>Sabores</h3>
         <p class="subtitulo">Dona elige, dona disfruta 🌈</p>
         <p>En Donuts, te ofrecemos una gama de sabores que seguramente satisfarán tus antojos más dulces.  Desde lo clásico hasta lo extravagante, 
             tenemos algo para todos los amantes de las donas: </p>
+        
     </section>
     <section class="historia">
         <h3>Elaboración</h3>
@@ -32,9 +58,18 @@
         <p>¿Alguna vez te has preguntado cómo hacemos nuestras donas tan deliciosas? 
             ¡Mira nuestro video exclusivo para descubrir el proceso de elaboración de nuestras donas desde cero! Te garantizamos que te abrirá el apetito 
             y te dejará con ganas de probar una Donuts ahora mismo.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pVi2TJ1yJ2w?si=BTObp7arhZaGmQ-S" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
     <footer>
-        
+       <img src="./Imagenes/Logo 2.svg" alt="Logo-donuts" />
+       <h6> © 2022 Donuts Company, Inc.</h6>
+       <a class="redes-sociales" href="#">
+        <img src="./Imagenes/facebook.svg" alt="Facebook"/>
+       </a>
+       <a class="redes-sociales" href="#">
+        <img src="./Imagenes/youtube.svg" alt="Youtube" />
+       </a>
     </footer>
 </body>
 </html>
