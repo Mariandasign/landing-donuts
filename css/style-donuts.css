@@ -1,5 +1,6 @@
 .banner{
-    border: 1px solid black;
+    background-image: url(../assets/Imagenes/Imagen-Donas.svg);
+    height: 560px;
 }
 .titulo{
     font-family: 'Poppins', sans-serif;
@@ -34,12 +35,18 @@
     font-weight: 600;
     border: none;
     border-radius: 6px;
-    padding: 16px 24px;   
+    padding: 16px 24px; 
+    cursor: pointer; 
+}
+
+#btn:hover{
+    background-color: #801F4F;
 }
 
 .contenido-sabores{
     background-color: #f8f8f8;
     flex-direction: column;
+    padding: 40px 0px;
 }
 
 .contenedor-texto-sabores{
@@ -55,10 +62,24 @@
 }
 
 .listado-de-donas{
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 
+}
+
+.dona{
+    display: flex;
+    align-items: center;
+    background-color: #FFF5FA;
+    width: 287px;
+    padding: 16px 32px;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    
 }
 
 .subtitulo{
@@ -83,10 +104,8 @@ p{
     color: black;
 }
 
-.contenido-elaboracon{
-    display: block;
-    flex-direction: column;
-    background-color: #FFF6FB;
+.contenido-elaboracion{
+    background-color: #FFECF5;
     padding: 40px 72px;
 
 }
@@ -101,6 +120,10 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.video-elaboracion{
+    width: 1074px;
 }
 
 .redes-sociales{
