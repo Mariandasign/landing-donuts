@@ -1,0 +1,76 @@
+.banner{
+    border: 1px solid black;
+}
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    color: #793B89;
+}
+.info-promo{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.texto-favorita{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#sabores-de-donas{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px; 
+    padding: 14px 16px;
+    border-radius: 6px;
+    width: 240px;
+}
+
+#btn{
+    background-color: #D63384;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 24px;   
+}
+
+.titulo-seccion{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #793B89;
+}
+
+.sabores{
+    background-color: #f8f8f8;
+}
+
+.subtitulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px; 
+    font-weight: 500;
+    color: black;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    font-weight: 400px;
+    color: black;
+}
+
+.tutulo-tarjeta{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px; 
+    font-weight: 600px;
+    color: black;
+}
+
+h6{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
