@@ -37,6 +37,16 @@
     padding: 16px 24px;   
 }
 
+.contenido-sabores{
+    background-color: #f8f8f8;
+    flex-direction: column;
+}
+
+.contenedor-texto-sabores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .titulo-seccion{
     font-family: 'Poppins', sans-serif;
     font-size: 48px;
@@ -44,8 +54,11 @@
     color: #793B89;
 }
 
-.sabores{
-    background-color: #f8f8f8;
+.listado-de-donas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
 }
 
 .subtitulo{
@@ -53,6 +66,7 @@
     font-size: 24px; 
     font-weight: 500;
     color: black;
+    justify-content: center;
 }
 
 p{
@@ -67,6 +81,37 @@ p{
     font-size: 28px; 
     font-weight: 600px;
     color: black;
+}
+
+.contenido-elaboracon{
+    display: block;
+    flex-direction: column;
+    background-color: #FFF6FB;
+    padding: 40px 72px;
+
+}
+
+.contenedor-elaboracion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-redes-sociales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociales{
+    padding: 8px;
+}
+
+.footer-contenedor{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
 }
 
 h6{

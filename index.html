@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donuts</title>
+    <link rel="icon" href="./assets/Imagenes/favicon.ico" />
     
     <link rel="stylesheet" href="./css/style-donuts.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,16 +55,20 @@
         </div>
     </main>
     
-    <section>
+    <section class="contenido-sabores">
+      <div class="contenedor-texto-sabores">
         <h3 class="titulo-seccion">Sabores</h3>
         <p class="subtitulo">Dona elige, dona disfruta 🌈</p>
         <p>En Donuts, te ofrecemos una gama de sabores que seguramente satisfarán tus antojos más dulces.  Desde lo clásico hasta lo extravagante, 
             tenemos algo para todos los amantes de las donas: </p>
-      <div>
+      </div>
+      <div class="listado-de-donas">
         <article class="dona"> 
-          <img src="./assets/Imagenes/dona-clasica.svg" alt="dona-clasica" />
-          <h5 class="titulo-tarjeta">Clasica</h5>
-          <p>Nuestra dona original y más querida, con su glaseado perfecto y textura esponjosa. ¡Un verdadero clásico!</p>
+            <img src="./assets/Imagenes/dona-clasica.svg" alt="dona-clasica" />
+          <div class="texto-dona">
+            <h5 class="titulo-tarjeta">Clasica</h5>
+            <p>Nuestra dona original y más querida, con su glaseado perfecto y textura esponjosa. ¡Un verdadero clásico!</p>
+          </div>
         </article>  
         <article class="dona"> 
           <img src="./assets/Imagenes/dona-ultra-chocolate.svg" alt="dona-ultra-chocolate" />
@@ -71,34 +76,45 @@
           <p>Para los amantes del chocolate, esta dona extra chocolatosa te llevará al cielo del cacao.</p>
         </article> 
         <article class="dona"> 
-          <img src="./assets/Imagenes/dona-chocolate-blanco.svg" alt="dona-chocolate-blanco" />
-          <h5 class="titulo-tarjeta">Chocolate Blanco</h5>
-          <p>Sumérgete en la suavidad del chocolate blanco que cubre cada bocado de esta exquisitez.</p>
-        </article>
+            <img src="./assets/Imagenes/dona-chocolate-blanco.svg" alt="dona-chocolate-blanco" />
+          <div class="texto-dona">
+            <h5 class="titulo-tarjeta">Chocolate Blanco</h5>
+            <p>Sumérgete en la suavidad del chocolate blanco que cubre cada bocado de esta exquisitez.</p>
+          </div>
+         </article>
         <article class="dona"> 
-          <img src="./assets/Imagenes/dona-caramelo.svg" alt="dona-caramelo" />
-          <h5 class="titulo-tarjeta">Caramelo</h5>
-          <p>Un placer carameliza-do que te hará desear más y más.</p>  
+            <img src="./assets/Imagenes/dona-caramelo.svg" alt="dona-caramelo" />
+          <div class="texto-dona">
+            <h5 class="titulo-tarjeta">Caramelo</h5>
+            <p>Un placer carameliza-do que te hará desear más y más.</p>  
+          </div>
         </article>
       </div>        
     </section>
-    <section>
+    <section class="contenido-elaboracion">
+      <div class="contenedor-elaboracion">
         <h3 class="titulo-seccion">Elaboración</h3>
         <p class="subtitulo">Un vistazo detrás de escena 🎥</p>
         <p>¿Alguna vez te has preguntado cómo hacemos nuestras donas tan deliciosas? 
             ¡Mira nuestro video exclusivo para descubrir el proceso de elaboración de nuestras donas desde cero! Te garantizamos que te abrirá el apetito 
             y te dejará con ganas de probar una Donuts ahora mismo.</p>
         <video src="./assets/Videos/Doughnuts glazed with three different flavors..mp4" controls></video>
+      </div>    
     </section>
+    
     <footer>
-       <img src="./assets/Imagenes/Logo 2.svg" alt="Logo-donuts" />
-       <h6> © 2022 Donuts Company, Inc.</h6>
-       <a class="redes-sociales" href="#">
-        <img src="./assets/Imagenes/facebook.svg" alt="Facebook"/>
-       </a>
-       <a class="redes-sociales" href="#">
-        <img src="./assets/Imagenes/youtube.svg" alt="Youtube" />
-       </a>
+      <div class="footer-contenedor">
+        <img src="./assets/Imagenes/Logo 2.svg" alt="Logo-donuts" />
+        <h6> © 2022 Donuts Company, Inc.</h6>
+        <div class="contenedor-redes-sociales">
+          <a class="redes-sociales" href="#">
+            <img src="./assets/Imagenes/facebook.svg" alt="Facebook"/>
+          </a>
+          <a class="redes-sociales" href="#">
+            <img src="./assets/Imagenes/youtube.svg" alt="Youtube" />
+          </a>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
